@@ -1,0 +1,8 @@
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\SelfHost\bin\Debug\SelfHost.exe.config
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\SelfHost\bin\Debug\SelfHost.exe
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\SelfHost\bin\Debug\SelfHost.pdb
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\SelfHost\bin\Debug\WCF_Funcionario.dll
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\SelfHost\bin\Debug\WCF_Funcionario.pdb
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\SelfHost\obj\Debug\SelfHost.csprojResolveAssemblyReference.cache
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\SelfHost\obj\Debug\SelfHost.exe
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\SelfHost\obj\Debug\SelfHost.pdb
