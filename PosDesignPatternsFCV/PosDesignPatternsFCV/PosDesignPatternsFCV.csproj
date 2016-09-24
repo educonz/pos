@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A6E7784-7739-47B4-88D9-3FAB129EFB32}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PosDesignPatternsFCV</RootNamespace>
+    <AssemblyName>PosDesignPatternsFCV</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Criacao\AbstractFactory\FabricaMotoHonda.cs" />
+    <Compile Include="Criacao\AbstractFactory\FabricaMotoYamaha.cs" />
+    <Compile Include="Criacao\AbstractFactory\Honda1000cc.cs" />
+    <Compile Include="Criacao\AbstractFactory\HondaBiz.cs" />
+    <Compile Include="Criacao\AbstractFactory\IFabricaMoto.cs" />
+    <Compile Include="Criacao\AbstractFactory\IMotoLuxo.cs" />
+    <Compile Include="Criacao\AbstractFactory\IMotoPopular.cs" />
+    <Compile Include="Criacao\AbstractFactory\Yamaha1000cc.cs" />
+    <Compile Include="Criacao\AbstractFactory\YBR.cs" />
+    <Compile Include="Criacao\FactoryMethod\Bmw.cs" />
+    <Compile Include="Criacao\FactoryMethod\CG.cs" />
+    <Compile Include="Criacao\FactoryMethod\Cinema.cs" />
+    <Compile Include="Criacao\FactoryMethod\EMotos.cs" />
+    <Compile Include="Criacao\FactoryMethod\Exemplo2\Bicicleta.cs" />
+    <Compile Include="Criacao\FactoryMethod\Exemplo2\ConcreteVeiculoFactory.cs" />
+    <Compile Include="Criacao\FactoryMethod\Exemplo2\IFactory.cs" />
+    <Compile Include="Criacao\FactoryMethod\Exemplo2\Scooter.cs" />
+    <Compile Include="Criacao\FactoryMethod\Exemplo2\VeiculoFactory.cs" />
+    <Compile Include="Criacao\FactoryMethod\ExemploComida\Carne.cs" />
+    <Compile Include="Criacao\FactoryMethod\ExemploComida\Churrasqueiro.cs" />
+    <Compile Include="Criacao\FactoryMethod\ExemploComida\Comida.cs" />
+    <Compile Include="Criacao\FactoryMethod\ExemploComida\Cozinheiro.cs" />
+    <Compile Include="Criacao\FactoryMethod\ExemploComida\Pizza.cs" />
+    <Compile Include="Criacao\FactoryMethod\ExemploComida\Pizzaiolo.cs" />
+    <Compile Include="Criacao\FactoryMethod\Fabrica.cs" />
+    <Compile Include="Criacao\FactoryMethod\FabricaBmw.cs" />
+    <Compile Include="Criacao\FactoryMethod\FabricaCG.cs" />
+    <Compile Include="Criacao\FactoryMethod\FabricarMoto.cs" />
+    <Compile Include="Criacao\FactoryMethod\FabricaNinja.cs" />
+    <Compile Include="Criacao\FactoryMethod\FabricaYBR.cs" />
+    <Compile Include="Criacao\FactoryMethod\IMoto.cs" />
+    <Compile Include="Criacao\FactoryMethod\Ninja.cs" />
+    <Compile Include="Criacao\FactoryMethod\YBR.cs" />
+    <Compile Include="Criacao\Singleton\Conexao.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

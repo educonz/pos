@@ -1,0 +1,6 @@
+E:\Projetos\CSHARP_VS\POS\PosDesignPatternsFCV\PosDesignPatternsFCV\bin\Debug\PosDesignPatternsFCV.exe.config
+E:\Projetos\CSHARP_VS\POS\PosDesignPatternsFCV\PosDesignPatternsFCV\bin\Debug\PosDesignPatternsFCV.exe
+E:\Projetos\CSHARP_VS\POS\PosDesignPatternsFCV\PosDesignPatternsFCV\bin\Debug\PosDesignPatternsFCV.pdb
+E:\Projetos\CSHARP_VS\POS\PosDesignPatternsFCV\PosDesignPatternsFCV\obj\Debug\PosDesignPatternsFCV.csprojResolveAssemblyReference.cache
+E:\Projetos\CSHARP_VS\POS\PosDesignPatternsFCV\PosDesignPatternsFCV\obj\Debug\PosDesignPatternsFCV.exe
+E:\Projetos\CSHARP_VS\POS\PosDesignPatternsFCV\PosDesignPatternsFCV\obj\Debug\PosDesignPatternsFCV.pdb

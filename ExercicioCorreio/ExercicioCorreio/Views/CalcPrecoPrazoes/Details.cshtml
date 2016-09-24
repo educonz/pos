@@ -1,0 +1,130 @@
+﻿@model ExercicioCorreio.Models.CalcPrecoPrazo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CalcPrecoPrazo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CdEmpresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CdEmpresa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DsSenha)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DsSenha)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CdServico)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CdServico)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CepOrigem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CepOrigem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CepDestino)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CepDestino)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VlPeso)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VlPeso)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CdFormato)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CdFormato)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VlComprimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VlComprimento)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VlAltura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VlAltura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VlLargura)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VlLargura)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VlDiametro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VlDiametro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CdMaoPropria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CdMaoPropria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VlValorDeclarado)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VlValorDeclarado)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CdAvisoRecebimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CdAvisoRecebimento)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

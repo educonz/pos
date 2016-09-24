@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Exercicio.Models.CalcPrecoPrazo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CdEmpresa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DsSenha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CdServico)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CepOrigem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CepDestino)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VlPeso)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CdFormato)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VlComprimento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VlAltura)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VlLargura)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VlDiametro)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CdMaoPropria)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VlValorDeclarado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CdAvisoRecebimento)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CdEmpresa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DsSenha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CdServico)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CepOrigem)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CepDestino)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VlPeso)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CdFormato)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VlComprimento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VlAltura)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VlLargura)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VlDiametro)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CdMaoPropria)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VlValorDeclarado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CdAvisoRecebimento)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

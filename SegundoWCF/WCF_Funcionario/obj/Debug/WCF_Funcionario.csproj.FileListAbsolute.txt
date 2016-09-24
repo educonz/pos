@@ -1,0 +1,6 @@
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\WCF_Funcionario\bin\Debug\WCF_Funcionario.dll.config
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\WCF_Funcionario\bin\Debug\WCF_Funcionario.dll
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\WCF_Funcionario\bin\Debug\WCF_Funcionario.pdb
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\WCF_Funcionario\obj\Debug\WCF_Funcionario.csprojResolveAssemblyReference.cache
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\WCF_Funcionario\obj\Debug\WCF_Funcionario.dll
+E:\Projetos\CSHARP_VS\POS\SegundoWCF\WCF_Funcionario\obj\Debug\WCF_Funcionario.pdb

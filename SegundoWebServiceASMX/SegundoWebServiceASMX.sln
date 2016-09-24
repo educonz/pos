@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS_ALUNO", "WS_ALUNO\WS_ALUNO.csproj", "{CF95E178-7407-478D-9D67-D07EF80E4B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationAlunos", "WebApplicationAlunos\WebApplicationAlunos.csproj", "{20535867-F58C-46A5-9241-F14D553BA085}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CF95E178-7407-478D-9D67-D07EF80E4B36} = {CF95E178-7407-478D-9D67-D07EF80E4B36}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF95E178-7407-478D-9D67-D07EF80E4B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF95E178-7407-478D-9D67-D07EF80E4B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF95E178-7407-478D-9D67-D07EF80E4B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF95E178-7407-478D-9D67-D07EF80E4B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20535867-F58C-46A5-9241-F14D553BA085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20535867-F58C-46A5-9241-F14D553BA085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20535867-F58C-46A5-9241-F14D553BA085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20535867-F58C-46A5-9241-F14D553BA085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

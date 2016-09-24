@@ -1,0 +1,6 @@
+E:\Projetos\CSHARP_VS\POS\SolutionWCF\PrimeiroWCF\bin\Debug\PrimeiroWCF.dll.config
+E:\Projetos\CSHARP_VS\POS\SolutionWCF\PrimeiroWCF\bin\Debug\PrimeiroWCF.dll
+E:\Projetos\CSHARP_VS\POS\SolutionWCF\PrimeiroWCF\bin\Debug\PrimeiroWCF.pdb
+E:\Projetos\CSHARP_VS\POS\SolutionWCF\PrimeiroWCF\obj\Debug\PrimeiroWCF.csprojResolveAssemblyReference.cache
+E:\Projetos\CSHARP_VS\POS\SolutionWCF\PrimeiroWCF\obj\Debug\PrimeiroWCF.dll
+E:\Projetos\CSHARP_VS\POS\SolutionWCF\PrimeiroWCF\obj\Debug\PrimeiroWCF.pdb
