@@ -1,0 +1,5 @@
+E:\Projetos\CSHARP_VS\POS\WCF_PublishIIS\WCF_Funcionario\bin\WCF_Funcionario.dll.config
+E:\Projetos\CSHARP_VS\POS\WCF_PublishIIS\WCF_Funcionario\bin\WCF_Funcionario.dll
+E:\Projetos\CSHARP_VS\POS\WCF_PublishIIS\WCF_Funcionario\bin\WCF_Funcionario.pdb
+E:\Projetos\CSHARP_VS\POS\WCF_PublishIIS\WCF_Funcionario\obj\Release\WCF_Funcionario.dll
+E:\Projetos\CSHARP_VS\POS\WCF_PublishIIS\WCF_Funcionario\obj\Release\WCF_Funcionario.pdb

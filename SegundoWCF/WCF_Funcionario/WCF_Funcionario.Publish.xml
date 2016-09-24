@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="http://localhost/Servico">
+    <file relUrl="bin/WCF_Funcionario.dll.config" publishTime="09/24/2016 10:19:52" />
+    <file relUrl="bin/WCF_Funcionario.dll" publishTime="09/24/2016 11:45:14" />
+    <file relUrl="WCF_Funcionario.ServicoFuncionario.svc" publishTime="09/24/2016 11:45:16" />
+    <file relUrl="Web.config" publishTime="09/24/2016 10:19:52" />
+    <file relUrl="bin/WCF_Funcionario.pdb" publishTime="09/24/2016 11:45:14" />
+  </publishTarget>
+</publishData>
